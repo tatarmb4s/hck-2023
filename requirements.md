@@ -1,1 +1,0 @@
-pip install langchain, llama_index, openai, venv

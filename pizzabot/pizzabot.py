@@ -62,6 +62,7 @@ def BotAsker(bemenet):
     print("PizzaAI: ",pyData['response'])
     if pyData['status'] == "end":
         print("Rendelés leadva!")
+        print(pyData['notes'])
     else:
         isVege(pyData)
     return qResp
