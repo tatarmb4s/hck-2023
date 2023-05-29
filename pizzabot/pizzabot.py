@@ -9,7 +9,7 @@ from langchain.chat_models import ChatOpenAI
 import os, json, re
 if not os.environ.get("OPENAI_API_KEY"):
     #Kulcs: hackatonos
-    os.environ["OPENAI_API_KEY"] = "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" # ide kell majd az emailban kapott kulcsot bemásolni
+    os.environ["OPENAI_API_KEY"] = "IDE-KELL-A-KULCSOT" # ide kell majd az emailban kapott kulcsot bemásolni
 context, Gstatus = "", "null" # kontextus
 docs = SimpleDirectoryReader("D:\\Race\\Hackaton\\pizzabot\\trainData\\").load_data()
 def Reader(path):
